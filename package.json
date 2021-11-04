@@ -1,0 +1,17 @@
+{
+  "name": "notelogger",
+  "version": "1.0.0",
+  "description": "Playlist of notes",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon backend/server.js"
+  },
+  "author": "DeepSK",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.14",
+    "react-bootstrap": "^2.0.0"
+  }
+}
