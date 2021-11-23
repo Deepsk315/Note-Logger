@@ -5,10 +5,10 @@ const connectDB = require("./config/db")
 const userRoutes  = require('./routes/userRoutes.js')
 const noteRoutes  = require('./routes/noteRoutes.js')
 const { notFound, errorHandler } = require("./middlewares/errorMiddleware")
-const path = require("path")
+    const path = require("path")
 
 
-const app = express()
+const app = express() 
 dotenv.config()
 connectDB()
 app.use(express.json())
